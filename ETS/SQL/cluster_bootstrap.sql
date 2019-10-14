@@ -10,4 +10,4 @@ SET SQL_LOG_BIN=0;
  	START GROUP_REPLICATION;
  	SET GLOBAL group_replication_bootstrap_group=OFF;
 
- 	CREATE DATABASE CAMPPKMBK;
+ 	CREATE DATABASE camppkmbk;

@@ -3,5 +3,5 @@ CREATE USER 'monitor'@'%' IDENTIFIED BY 'monitorpassword';
  	FLUSH PRIVILEGES;
 
  	CREATE USER 'camppkmbkuser'@'%' IDENTIFIED BY 'camppkmbkpassword';
- 	GRANT ALL PRIVILEGES on CAMPPKMBK.* to 'camppkmbkuser'@'%';
+ 	GRANT ALL PRIVILEGES on camppkmbk.* to 'camppkmbkuser'@'%';
  	FLUSH PRIVILEGES;
